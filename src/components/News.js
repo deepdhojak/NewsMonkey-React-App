@@ -46,6 +46,7 @@ const News = (props)=>{
         setPage(page+1)
         updateNews()
     }
+    
     // const fetchMoreData = async () => {   
     //     setPage(page+1) 
     //     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=d093053d72bc40248998159804e0e67d&page=${page+1}&pageSize=${props.pageSize}`;
